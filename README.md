@@ -17,5 +17,5 @@ E a última coisa que fiz foi um botão no canto da tela para voltar ao topo.
 No meio desse processo aprendi a mexer melhor com position: relative e absolute, tambem entendi com funciona o position: fixed e sticky, alem de entender 
 um pouco mais de como posicionar o site e a escolher as cores.
 
-Página no GITHUP Pages:
+Página no GITHUB Pages:
 https://gabriellapedruzzi.github.io/1f_trab01_gabriella_mesnerovicz_pedruzzi/
