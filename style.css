@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    background-color: #ffe8c3;
+    
+}
+#titulo_principal{
+    font-family: "Cinzel Decorative", serif;
+    background-color:#27423e;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 50px;
+    text-align: center;
+    font-size: 45px;
+    color: #d1e3e1;
+    font-weight: 700;
+}
+
+.menu{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border: 2px solid #213a37;
+    background-color: #002c31;
+    margin-top: 0;
+    margin-bottom: 40px;
+    height: 55px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.menu a{
+        text-decoration: none;
+        color: #d1e3e1;
+        font-size: 18px;
+    }
+
+.menu a:hover{
+        font-size: 20px;
+    }
+
+
+#Sinopse{
+    text-align: center;
+    background-color: #002c31;
+    color: #d1e3e1;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.envolta_sinopse{
+    background-color: #002c31;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+    color: #d1e3e1;
+    text-align: center;
+    border: 2px solid #006966;
+}
+
+.Sinopse{
+    padding: 20px;
+    margin: 15px;
+    background-color: #27423e;
+    text-align: justify;
+}
+
+
+
+#lugares{
+    text-align: center;
+    background-color: #002c31;
+    color: #d1e3e1;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+.Lugares{
+    position: relative;
+    background-color: #002c31;
+    padding: 30px;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    display: block;
+    color: #d1e3e1;
+    border: 2px solid #006966;
+}
+
+.Lugares img{
+    width: 550px;
+    border: 8px solid #27423e;
+    border-radius: 4px;
+}
+
+.Lugares img:hover{
+    border: 9px solid #253e3b;
+}
+
+.Bibliotecas{
+    position: absolute;
+    top: 20px;
+    right: 455px;
+    height: 170px;
+    width: 350px;
+    background-color: #27423e;
+    margin: 10px;
+}
+
+.Bibliotecas h3{
+    text-align: center;
+}
+
+.Blackwald{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    height: 170px;
+    width: 350px;
+    background-color: #27423e;
+    margin: 10px;
+}
+
+.Blackwald h3{
+    position: absolute;
+    text-align: center;
+    top: 55px;
+    right: 130px;
+}
+
+.Brassbridge{
+    position: absolute;
+    top: 230px;
+    right: 455px;
+    height: 170px;
+    width: 350px;
+    background-color: #27423e;
+    margin: 10px;
+}
+
+.Brassbridge h3{
+    position: absolute;
+    text-align: center;
+    top: 55px;
+    right: 125px;
+}
+
+.Montanhas{
+    position: absolute;
+    top: 230px;
+    right: 50px;
+    height: 170px;
+    width: 350px;
+    background-color: #27423e;
+    margin: 10px;
+}
+
+.Montanhas h3{
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    right: 125px;
+    text-align: center;
+}
+
+
+
+
+#Personagens{
+    text-align: center;
+    background-color: #002c31;
+    color: #d1e3e1;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.fundo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #002c31;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+    color: #d1e3e1;
+    text-align: center;
+    border: 2px solid #006966;
+}
+
+.Nathaniel{
+    display: block;
+    background-color: #27423e;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #213a37;
+}
+
+.Nathaniel img{
+    border: 5px solid #002c31;
+    border-radius: 5px;
+}
+
+.Nathaniel img:hover{
+    border: 5px solid #132825;
+}
+
+.Elisabeth{
+    display: block;
+    background-color: #27423e;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #213a37;
+}
+
+.Elisabeth img{
+    border: 5px solid #002c31;
+    border-radius: 5px;
+}
+
+.Elisabeth img:hover{
+    border: 5px solid #132825;
+}
+
+.Silas{
+    display: block;
+    background-color: #27423e;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #213a37;
+}
+
+.Silas img{
+    border: 5px solid #002c31;
+    border-radius: 5px;
+}
+
+.Silas img:hover{
+    border: 5px solid #132825;
+
+}
+
+
+.voltar{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #006966;
+    padding: 0 25px 0 25px;
+    border-radius: 50%;
+}
+
+.voltar a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.voltar:hover{
+    color: #d1e3e1;
+    background-color: #005451;
+}
